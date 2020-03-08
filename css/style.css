@@ -7,14 +7,11 @@
 06. Homepage Slider
 07. Services Style
 08. About Style
-09. Team Style
-09. Clients Style
-11. Blog Style
-12. Projects Style
-13. Gallery Style
-14. Contact Style
-15. Form style
-16. Media Query
+9. Projects Style
+10. Gallery Style
+11. Contact Style
+12. Form style
+13. Media Query
 ----------------------------- */
 
 
@@ -1441,6 +1438,9 @@ a {
     .next-form-wrapper {
         width: 58%;
     }
+    .swiper-button-prev{
+        margin-bottom: 532px;
+    }
 }
 @media (max-width: 540px) {
     .next-form-block-child li > .img-wrapper {
@@ -1452,15 +1452,25 @@ a {
     .next-form-block-child li > .next-form-wrapper {
         width: 47%;
     }
+    .swiper-button-prev{
+        margin-bottom: 532px;
+        margin-left: -1px;
+    }
 }
 @media (max-width: 600px) {
     .next-form-block-child li > .next-form-wrapper {
         width: 75%;
     }
+    .swiper-button-prev{
+        margin-bottom: 532px;
+    }
 }
 @media (max-width: 700px) {
     .next-form-wrapper {
         width: 70%;
+    }
+    .swiper-button-prev{
+        margin-bottom: 532px;
     }
 }
 @media (max-width: 767px) {
@@ -1470,10 +1480,16 @@ a {
     section {
         padding: 0;
     }
+    .swiper-button-prev{
+        margin-bottom: 532px;
+    }
 }
 @media (max-width: 1199px) {
     .next-form-wrapper {
         width: 64%;
+    }
+    .swiper-button-prev{
+        margin-bottom: 532px;
     }
 }
 @media (min-width:768px) {
